@@ -1,4 +1,4 @@
-# simian
+# simian GPU workstation
 Instructions and scripts for the GPU workstation belonging to the Georgia Tech ML Theory Group
 
 If you have problems or questions, please message me on Teams *after reading this entire document*
