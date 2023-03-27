@@ -13,8 +13,8 @@ If you have problems or questions, please message me on Teams *after reading thi
 5. Open a terminal on your local machine (via WSL if on Windows)
 6. Use the command `ssh [your Georgia Tech username]@simian.cc.gatech.edu` to access the workstation; the password is your Georgia Tech password
 
-## Virtual environment instructions
-### IMPORTANT: Do NOT install any packages unless you are in a virtual environment
+## Conda environment instructions
+### IMPORTANT: Do NOT install any packages unless you are in a conda environment
 
 1. Use the command `conda create -n [your environment name] python=[your python version]` to create an Anaconda environment
 2. Use the command `conda activate [your environment name]` to enter your Anaconda environment
