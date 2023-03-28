@@ -1,5 +1,5 @@
 # simian GPU workstation
-Instructions and scripts for the GPU workstation belonging to the Georgia Tech ML Theory Group
+Instructions, scripts, and FAQ for the GPU workstation belonging to the Georgia Tech ML Theory Group
 
 If you have problems or questions, please message me on Teams *after reading this entire document*
 
@@ -31,5 +31,9 @@ If you have problems or questions, please message me on Teams *after reading thi
 #### PRO TIP: Use the command `tmux` to activate a persistent connection to the workstation so your jobs do not cancel when you exit your `ssh` session, then use the command `tmux a -t 0` to re-enter your persistent connection when you re-connect to the workstation
 
 ## Jupyter notebook instructions
+
+1. Coming soon
+
+## FAQ
 
 1. Coming soon
