@@ -9,6 +9,14 @@ If you have problems or questions, please message me on Teams *after reading thi
 1. Visit <https://vpn.gatech.edu/> and log in with your Georgia Tech credentials
 2. Download and install the appropriate VPN client for your machine (Windows/MacOS in the top right, Linux at the bottom)
 3. Log in to the VPN client with your Georgia Tech credentials
+
+#### USERS:
+4. Open `simian.cc.gatech.edu` in your browser
+5. Log in with your username and password (note: when you log in for the first time, the password you enter will be your new password)
+6. Open `simian.cc.gatech.edu/user/[username]/lab` in your browser
+7. Click Notebook to use a Jupyter notebook or Terminal to use a terminal
+
+#### ADMINS ONLY:
 4. If using Windows, follow [these instructions](https://learn.microsoft.com/en-us/windows/wsl/install) to install WSL
 5. Open a terminal on your local machine (via WSL if on Windows)
 6. Use the command `ssh [your Georgia Tech username]@simian.cc.gatech.edu` to access the workstation; the password is your Georgia Tech password
@@ -27,12 +35,6 @@ If you have problems or questions, please message me on Teams *after reading thi
 2. Select GPU 0 or GPU 1 based on the amount of GPU memory available
 3. Use the command `CUDA_VISIBLE_DEVICES=[your GPU number] python [your script name]` to submit your job
 4. To kill your job prematurely, use `nvidia-smi` to check the process id (make sure it is correct!), then use the command `kill -9 [process id]`
-
-#### PRO TIP: Use the command `tmux` to activate a persistent connection to the workstation so your jobs do not cancel when you exit your `ssh` session, then use the command `tmux a -t 0` to re-enter your persistent connection when you re-connect to the workstation
-
-## Jupyter notebook instructions
-
-1. Coming soon
 
 ## FAQ
 
