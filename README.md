@@ -48,4 +48,5 @@ If you have problems or questions, please message me on Teams *after reading thi
 4. To kill your job prematurely, use `nvidia-smi` to check the process id (make sure it is correct!), then use the command `kill -9 [process id]`
 
 ## FAQ
-1. Coming soon
+Q1. I'm an admin trying to modify the base conda environment (e.g., to update conda) but it says I don't have permission
+A1. Retry the command with `sudo env "PATH=$PATH"` preprended
