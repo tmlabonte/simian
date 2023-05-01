@@ -34,7 +34,7 @@ If you have problems or questions, please message me on Teams *after reading thi
 2. Use the command `conda create -n [your environment name] python=[your python version]` to create a Conda environment
 3. Use the command `conda activate [your environment name]` to enter your Conda environment
 4. Use the command `conda install ipykernel` to install the IPython kernel package
-5. Use the command `ipython kernel install --user --name=<any_name_for_kernel>` to instantiate your kernel
+5. Use the command `ipython kernel install --user --name=[your kernel name]` to instantiate your kernel
 6. Use the command `conda deactivate` to exit your Conda environment
 7. Refresh your Jupyter instance, then select your new kernel from the Kernels tab
 8. Install packages using `conda` or `pip`
