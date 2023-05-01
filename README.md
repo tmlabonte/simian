@@ -35,6 +35,7 @@ If you have problems or questions, please message me on Teams *after reading thi
 3. Use the command `conda install ipykernel` to install the IPython kernel package
 4. Use the command `ipython kernel install --user --name=<any_name_for_kernel>` to instantiate your kernel
 5. Refresh your Jupyter instance, then select your new kernel from the Kernels tab
+6. Install packages using `conda` or `pip`
 
 ## Job submission instructions
 ### IMPORTANT: Do NOT submit a job which overflows the GPU memory -- this will cancel other students' jobs
