@@ -24,9 +24,17 @@ If you have problems or questions, please message me on Teams *after reading thi
 ## Conda environment instructions
 ### IMPORTANT: Do NOT install any packages unless you are in a conda environment
 
+#### TERMINAL:
 1. Use the command `conda create -n [your environment name] python=[your python version]` to create an Anaconda environment
 2. Use the command `conda activate [your environment name]` to enter your Anaconda environment
 3. Install packages using `conda` or `pip`
+
+#### JUPYTER:
+1. Use the command `conda create -n [your environment name] python=[your python version]` to create an Anaconda environment
+2. Use the command `conda activate [your environment name]` to enter your Anaconda environment
+3. Use the command `conda install ipykernel` to install the IPython kernel package
+4. Use the command `ipython kernel install --user --name=<any_name_for_kernel>` to instantiate your kernel
+5. Refresh your Jupyter instance, then select your new kernel from the Kernels tab
 
 ## Job submission instructions
 ### IMPORTANT: Do NOT submit a job which overflows the GPU memory -- this will cancel other students' jobs
@@ -37,5 +45,4 @@ If you have problems or questions, please message me on Teams *after reading thi
 4. To kill your job prematurely, use `nvidia-smi` to check the process id (make sure it is correct!), then use the command `kill -9 [process id]`
 
 ## FAQ
-
 1. Coming soon
