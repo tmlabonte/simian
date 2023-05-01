@@ -6,34 +6,38 @@ If you have problems or questions, please message me on Teams *after reading thi
 ## Setup instructions
 ### IMPORTANT: You MUST connect to the workstation using your default Georgia Tech username (e.g. tlabonte3) and NOT your email alias (e.g. tyler)
 
+#### VPN:
 1. Visit <https://vpn.gatech.edu/> and log in with your Georgia Tech credentials
 2. Download and install the appropriate VPN client for your machine (Windows/MacOS in the top right, Linux at the bottom)
 3. Log in to the VPN client with your Georgia Tech credentials
 
 #### USERS:
-4. Open `simian.cc.gatech.edu` in your browser
-5. Log in with your username and password (note: when you log in for the first time, the password you enter will be your new password)
-6. Open `simian.cc.gatech.edu/user/[username]/lab` in your browser
-7. Click Notebook to use a Jupyter notebook or Terminal to use a terminal
+1. Install the VPN as above
+2. Open `simian.cc.gatech.edu` in your browser
+3. Log in with your username and password (note: when you log in for the first time, the password you enter will be your new password)
+4. Open `simian.cc.gatech.edu/user/[username]/lab` in your browser
+5. Click Notebook to use a Jupyter notebook or Terminal to use a terminal
 
 #### ADMINS ONLY:
-4. If using Windows, follow [these instructions](https://learn.microsoft.com/en-us/windows/wsl/install) to install WSL
-5. Open a terminal on your local machine (via WSL if on Windows)
-6. Use the command `ssh [your Georgia Tech username]@simian.cc.gatech.edu` to access the workstation; the password is your Georgia Tech password
+1. Install the VPN as above
+2. If using Windows, follow [these instructions](https://learn.microsoft.com/en-us/windows/wsl/install) to install WSL
+3. Open a terminal on your local machine (via WSL if on Windows)
+4. Use the command `ssh [your Georgia Tech username]@simian.cc.gatech.edu` to access the workstation; the password is your Georgia Tech password
 
 ## Conda environment instructions
 ### IMPORTANT: Do NOT install any packages unless you are in a conda environment
 
 #### TERMINAL:
-1. Use the command `conda create -n [your environment name] python=[your python version]` to create a Conda environment
-2. Use the command `conda activate [your environment name]` to enter your Conda environment
-3. Install packages using `conda` or `pip`
+1. Open a terminal, use the command `conda init bash`, and restart your terminal (you only need to do this the first time)
+2. Use the command `conda create -n [your environment name] python=[your python version]` to create a Conda environment
+3. Use the command `conda activate [your environment name]` to enter your Conda environment
+4. Install packages using `conda` or `pip`
 
 #### JUPYTER:
-4. Use the command `conda install ipykernel` to install the IPython kernel package
-5. Use the command `ipython kernel install --user --name=[your kernel name]` to instantiate your kernel
-6. Use the command `conda deactivate` to exit your Conda environment
-7. Refresh your Jupyter instance, then select your new kernel from the Kernels tab
+1. Open a terminal and follow the previous steps
+2. Use the command `conda install ipykernel` to install the IPython kernel package
+3. Use the command `ipython kernel install --user --name=[your kernel name]` to instantiate your kernel
+4. Refresh your browser page, then select your new kernel from the Kernels tab
 
 ## Job submission instructions
 ### IMPORTANT: Do NOT submit a job which overflows the GPU memory -- this will cancel other students' jobs
