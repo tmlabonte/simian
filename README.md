@@ -50,4 +50,4 @@ If you have problems or questions, please message me on Teams *after reading thi
 ## FAQ
 Q1. I'm an admin trying to modify the base conda environment (e.g., to update conda) but it says I don't have permission
 
-A1. Retry the command with `sudo env "PATH=$PATH"` preprended
+A1. Retry the command with `sudo env "PATH=$PATH"` preprended; this is because opt/anaconda3 is not added to the sudo PATH by default
