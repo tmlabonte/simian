@@ -29,8 +29,8 @@ If you have problems or questions, please message me on Teams *after reading thi
 
 #### TERMINAL:
 1. Open a terminal, use the command `conda init bash`, and restart your terminal (you only need to do this the first time)
-2. Use the command `conda create -n [your environment name] python=[your python version]` to create a Conda environment
-3. Use the command `conda activate [your environment name]` to enter your Conda environment
+2. Use the command `conda create -n [your environment name] python=[your python version]` to create a conda environment
+3. Use the command `conda activate [your environment name]` to enter your conda environment
 4. Install packages using `conda` or `pip`
 
 #### JUPYTER:
@@ -51,3 +51,7 @@ If you have problems or questions, please message me on Teams *after reading thi
 Q1. I'm an admin trying to modify the base conda environment (e.g., to update conda) but it says I don't have permission
 
 A1. Retry the command with `sudo env "PATH=$PATH"` preprended; this is because opt/anaconda3 is not added to the sudo PATH by default
+
+Q2. I'm an admin trying to modify the JupyterLab conda environment, but changes I made when ssh'ed to the machine aren't showing up
+
+A2. The JupyterLab uses a different conda install than the regular machine (/opt/anaconda3 vs opt/tljh); you have to make changes as a JupyterLab admin
