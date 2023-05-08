@@ -49,8 +49,8 @@ If you have problems or questions, please message me on Teams *after reading thi
 ## FAQ
 Q1. I'm an admin trying to modify the base conda environment (e.g., to update conda) but it says I don't have permission
 
-A1. Retry the command with `sudo env "PATH=$PATH"` preprended; this is because opt/anaconda3 is not added to the sudo PATH by default
+A1. Retry the command with `sudo env "PATH=$PATH"` preprended; this is because `opt/anaconda3` is not added to the sudo PATH by default
 
 Q2. I'm an admin trying to modify the JupyterLab conda environment, but changes I made when `ssh`'d into the machine aren't showing up
 
-A2. The JupyterLab uses a different conda install than the regular machine (/opt/anaconda3 vs opt/tljh), so you have to make changes as a JupyterLab root user
+A2. The JupyterLab uses a different conda install than the regular machine (`/opt/anaconda3` vs `opt/tljh`), so you have to make changes as a JupyterLab root user
