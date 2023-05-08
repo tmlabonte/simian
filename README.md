@@ -4,7 +4,6 @@ Instructions, scripts, and FAQ for the GPU workstation belonging to the Georgia 
 If you have problems or questions, please message me on Teams *after reading this entire document*
 
 ## Setup instructions
-### IMPORTANT: You MUST connect to the workstation using your default Georgia Tech username (e.g. tlabonte3) and NOT your email alias (e.g. tyler)
 
 #### VPN:
 1. Visit <https://vpn.gatech.edu/> and log in with your Georgia Tech credentials
