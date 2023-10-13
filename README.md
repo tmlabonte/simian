@@ -12,9 +12,11 @@ If you have problems or questions, please message me on Teams *after reading thi
 
 #### USERS:
 1. Install the VPN as above
-2. Open `simian.cc.gatech.edu/jupyter` in your browser
-3. Log in with your username and password (note: when you log in for the first time, the password you enter will be your new password)
-4. Click Notebook to use a Jupyter notebook or Terminal to use a terminal
+2. Ask an admin to make a jupyter account for you
+3. Open `simian.cc.gatech.edu/jupyter` in your browser
+4. Log in with your username and password (note: when you log in for the first time, the password you enter will be your new password)
+5. If you see `tree` in the URL, replace it with `lab`
+6. Click Notebook to use a Jupyter notebook or Terminal to use a terminal
 
 #### ADMINS ONLY:
 1. Install the VPN as above
