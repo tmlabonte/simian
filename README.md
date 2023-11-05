@@ -58,4 +58,4 @@ A2. The JupyterLab uses a different conda install than the regular machine (`/op
 
 Q3. The `nvidia-smi` command returns `Failed to initialize NVML: Driver/library version mismatch`
 
-A4. This usually means there was some kind of update and the system needs to be rebooted, e.g., using `sudo shutdown -r now`. For more information, see [this link](https://stackoverflow.com/questions/43022843/nvidia-nvml-driver-library-version-mismatch)
+A3. This usually means there was some kind of update and the system needs to be rebooted, e.g., using `sudo shutdown -r now`. For more information, see [this link](https://stackoverflow.com/questions/43022843/nvidia-nvml-driver-library-version-mismatch)
