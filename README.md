@@ -55,3 +55,7 @@ A1. Retry the command with `sudo env "PATH=$PATH"` preprended; this is because `
 Q2. I'm an admin trying to modify the JupyterLab conda environment, but changes I made when `ssh`'d into the machine aren't showing up
 
 A2. The JupyterLab uses a different conda install than the regular machine (`/opt/anaconda3` vs `opt/tljh`), so you have to make changes as a JupyterLab root user
+
+Q3. The `nvidia-smi` command returns `Failed to initialize NVML: Driver/library version mismatch`
+
+A4. This usually means there was some kind of update and the system needs to be rebooted, e.g. via `sudo shutdown -r now`. For more information, see [this link](https://stackoverflow.com/questions/43022843/nvidia-nvml-driver-library-version-mismatch)
