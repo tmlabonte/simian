@@ -59,3 +59,7 @@ A2. The JupyterLab uses a different conda install than the regular machine (`/op
 Q3. The `nvidia-smi` command returns `Failed to initialize NVML: Driver/library version mismatch`
 
 A3. This usually means there was some kind of update and the system needs to be rebooted, e.g., using `sudo shutdown -r now`. For more information, see [this link](https://stackoverflow.com/questions/43022843/nvidia-nvml-driver-library-version-mismatch)
+
+Q4. The machine is frozen and/or makes a beeping sound upon startup.
+
+A4. This can be caused by lack of storage; use `df -h` to check available disk space and delete large files. If this does not work, see [this link](https://www.dell.com/support/kbdoc/en-us/000124349/understanding-beep-codes-on-a-dell-desktop-pc#precision-desktop) for boot code diagnosis.
