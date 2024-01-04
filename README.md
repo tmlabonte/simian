@@ -63,3 +63,7 @@ A3. This usually means there was some kind of update and the system needs to be 
 Q4. The machine is frozen and/or makes a beeping sound upon startup.
 
 A4. This can be caused by lack of storage; use `df -h` to check available disk space and delete large files. If this does not work, see [this link](https://www.dell.com/support/kbdoc/en-us/000124349/understanding-beep-codes-on-a-dell-desktop-pc#precision-desktop) for boot code diagnosis.
+
+Q5. The servers are not automatically culling when idle.
+
+A5. I turned off culling because the servers would cull in the middle of jobs. See [this link](https://tljh.jupyter.org/en/latest/topic/idle-culler.html) for details on auto-culling settings.
